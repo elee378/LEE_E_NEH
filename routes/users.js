@@ -1,4 +1,5 @@
 var express = require('express');
+var connect = require('../utils/sqlConnect');
 var router = express.Router();
 
 /* GET users listing. */
